@@ -4,8 +4,11 @@
   "homepage": "https://jsxgraph.org",
   "version": "1.14.0",
   "exports": {
-    "types": "./src/index.d.ts",
-    "default": "./src/index.js"
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./distrib/jsxgraph.css": "./distrib/jsxgraph.css"
   },
   "main": "./distrib/jsxgraphcore.js",
   "module": "./src/index.js",
